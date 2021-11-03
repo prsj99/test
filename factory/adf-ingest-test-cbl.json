@@ -1,0 +1,9 @@
+{
+	"name": "adf-ingest-test-cbl",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "018a5d8c-0641-443a-9f97-34e1adab8ecd",
+		"tenantId": "ea1f9c15-7f32-4dfa-b662-cacea1f61d0f"
+	}
+}

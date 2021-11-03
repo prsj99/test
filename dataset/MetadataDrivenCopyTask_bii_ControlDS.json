@@ -1,0 +1,20 @@
+{
+	"name": "MetadataDrivenCopyTask_bii_ControlDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adfcontroltable",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "MetadataDrivenCopyTask_bii_20211103"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "MainControlTable"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
