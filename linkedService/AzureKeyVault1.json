@@ -1,10 +1,15 @@
 {
 	"name": "AzureKeyVault1",
 	"properties": {
+		"parameters": {
+			"kvname": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "AzureKeyVault",
 		"typeProperties": {
-			"baseUrl": "https://kv-ssis-adf.vault.azure.net/"
+			"baseUrl": "@{CONCAT('https://',linkedService().kvname,'.vault.azure.net/')}"
 		}
 	}
 }
