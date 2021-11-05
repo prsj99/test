@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "AzureKeyVault",
 		"typeProperties": {
-			"baseUrl": "https://kv-ingest-test-rg.vault.azure.net/"
+			"baseUrl": "https://kv-ssis-adf.vault.azure.net/"
 		}
 	}
 }
