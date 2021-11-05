@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-ingest-test-cbl"
+		},
+		"ls_AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"ls_AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"ls_adfcontroltable_connectionString": {
+			"value": ""
+		},
+		"ls_db_connectionString": {
+			"value": ""
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://kv-ingest-test-rg.vault.azure.net/"
+		},
+		"ls_AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://dlingestcbl.dfs.core.windows.net/"
+		}
+	}
+}
